@@ -1,17 +1,64 @@
-<ion-header [translucent]="true">
+
+
+<ion-header >
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      "User Namename"
     </ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-header>
+  <ion-toolbar>
+    <ion-button >Market</ion-button>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+      <ion-button slot="end" >Auctions</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-content>
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <h1>Slide 1</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 2</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 3</h1>
+      </ion-slide>
+    </ion-slides>
+  </ion-content>
+</ion-content>
+<ion-content>
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-button >Market</ion-button>
+
+        <ion-button slot="end" >Auctions</ion-button>
+    </ion-toolbar>
+  </ion-header>
+  <ion-header>
+    <ion-toolbar>
+      <ion-button >Market</ion-button>
+
+        <ion-button slot="end" >Auctions</ion-button>
+    </ion-toolbar>
+  </ion-header>
+  <ion-header>
+    <ion-toolbar>
+      <ion-button >Market</ion-button>
+
+        <ion-button slot="end" >Auctions</ion-button>
+    </ion-toolbar>
+  </ion-header>
+  <ion-header>
+    <ion-toolbar>
+      <ion-button >Market</ion-button>
+
+        <ion-button slot="end" >Auctions</ion-button>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
