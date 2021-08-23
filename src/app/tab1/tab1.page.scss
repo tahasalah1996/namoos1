@@ -1,19 +1,36 @@
+
+ion-content{
+  --ion-background-color:rgb(235, 132, 35);
+}
+.zzz{
+  --background:rgb(235, 132, 35);
+  
+}
+.sss{
+  font-size: 21px;
+ 
+}
 ion-button{
-  border-radius: 10px !important;
-  border: 2px solid #ffffff;
-  background-color: white;
-  color: #0032fe;
-  box-shadow: none !important;
+  --color:white;
+
+  // --background-color:danger;
+  // --ion-backdrop-color:red;
+  min-width: 190px;
+  // border-radius: 10px !important;
+  // border: 2px solid #ffffff;
+  // background-color: white;
+  // --ion-background-color:red;
+    // box-shadow: none !important;
   padding-left: 24px;
   padding-right: 34px;
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 18px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5px;
+  // margin-right: 20px;
 }
 ion-slides {
-  height: 100%;
+  height: 50%;
 }
 ion-card{
   height: 300px;
